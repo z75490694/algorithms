@@ -4,10 +4,16 @@ import java.util.*;
 
 public class Main {
 
-    public static void main(String[] args) throws Exception {
-        Scanner s = new Scanner(System.in);
-        int x = s.nextInt();
+
+
+    public static void main(String[] args) throws InterruptedException {
+            Scanner scanner = new Scanner(System.in);
+            String sc = scanner.nextLine();
+            System.out.println(sc);
+
     }
+
+
 
 
 }

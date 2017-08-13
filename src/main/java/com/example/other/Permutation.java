@@ -34,7 +34,7 @@ public class Permutation {
     }
 
     public static void main(String[] args){
-        String s ="abcb";
+        String s ="AABB";
         char[] c = s.toCharArray();
         Arrays.sort(c);
         s = String.valueOf(c);

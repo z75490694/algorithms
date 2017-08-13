@@ -11,14 +11,14 @@ public class BinarySearch {
         while(low<=high){
             int middle = (low+high)/2;
             if(a[middle]==key) return middle;
-            else if(a[middle]<key) low = middle;
-            else high = middle;
+            else if(a[middle]<key) low = middle+1;
+            else high = middle-1;
         }
         return -1;
     }
 
     public static void main(String[] args){
         int[] a = {1,2,3,4,5,6,7,8,9};
-        System.out.print(Search_Bin(a,4));
+        System.out.print(Search_Bin(a,9));
     }
 }

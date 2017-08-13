@@ -38,7 +38,7 @@ public class Combination {
 
 
     public static void main(String args[]){
-        char[] chs = {'a','b','c'};
+        char[] chs = {'a','b','c','a'};
         combination(chs);
 
     }
